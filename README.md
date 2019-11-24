@@ -2,6 +2,8 @@
 
 from https://www.atlassian.com/git/tutorials/dotfiles
 
+ssh issues https://stackoverflow.com/a/2643584/52598
+
 
       git clone --bare git@github.com:lkeersmaekers/dotfiles $HOME/.cfg
       function config {
