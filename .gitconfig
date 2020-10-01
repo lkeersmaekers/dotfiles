@@ -1,3 +1,5 @@
 [user]
 	email = lieven@iwega.be
 	name = Lieven Keersmaekers
+[http]
+	sslCAinfo = /etc/ssl/certs/ca-certificates.crt
