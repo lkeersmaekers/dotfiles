@@ -75,9 +75,9 @@ let g:maplocalleader = ","
 " Paste yanked text multiple times
 xnoremap p pgvy
 
-" Use <c-n> to navigate to next buffer
+" Use <c-n> to navigate to next buffer, <c-b> to previous (help key-codes - alt only works in gui)
 nnoremap <c-n> :bn<cr>
-nnoremap <s-n> :bp<cr>
+nnoremap <c-b> :bp<cr>
 
 " Populate the prompt with all loaded buffers and wait for a buffer to select
 nnoremap <leader>b :ls<cr>:b<space>
