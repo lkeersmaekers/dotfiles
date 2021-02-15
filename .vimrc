@@ -77,7 +77,7 @@ xnoremap p pgvy
 
 " Use <c-n> to navigate to next buffer
 nnoremap <c-n> :bn<cr>
-nnoremap <a-n> :bp<cr>
+nnoremap <s-n> :bp<cr>
 
 " Populate the prompt with all loaded buffers and wait for a buffer to select
 nnoremap <leader>b :ls<cr>:b<space>
