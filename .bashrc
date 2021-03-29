@@ -117,3 +117,8 @@ set -o vi
 
 # git config .dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+# add go to path
+export PATH=$PATH:/home/lieven/go/bin
+export GOPATH=/home/lieven/go
+source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash
