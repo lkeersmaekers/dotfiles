@@ -88,8 +88,7 @@ fi
 #export GCC_COLORS='error=01;31:warning=01;35:note=01;36:caret=01;32:locus=01:quote=01'
 
 # some more ls aliases
-alias ll='ls -l'
-alias la='ls -A'
+alias ll='ls -l' alias la='ls -A'
 alias l='ls -CF'
 
 # Alias definitions.
@@ -115,5 +114,11 @@ fi
 # vi prompt
 set -o vi
 
+# GOPATH
+export PATH=$PATH:$(go env GOPATH)/bin
+export GOPATH=$(go env GOPATH)
+
 # git config .dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+
+source $GOPATH/src/github.com/tomnomnom/gf/gf-completion.bash
