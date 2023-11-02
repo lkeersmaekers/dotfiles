@@ -4,6 +4,10 @@ from https://www.atlassian.com/git/tutorials/dotfiles
 
 ssh issues https://stackoverflow.com/a/2643584/52598
 
+     -- New installations
+     -- ssh-keygen
+     -- cat ~/.ssh/id_rsa.pub
+     -- Add public key to this repo
 
       git clone --bare git@github.com:lkeersmaekers/dotfiles $HOME/.cfg
       function config {
