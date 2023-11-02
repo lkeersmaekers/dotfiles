@@ -64,6 +64,8 @@ set listchars=tab:>.,trail:.,extends:#,nbsp:.
 set virtualedit=all
 set nosol
 set wildmenu
+set number
+set relativenumber
 
 " With a map leader it's possible to do extra key combinations
 " like <leader>w saves the current file
