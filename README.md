@@ -7,7 +7,9 @@ ssh issues https://stackoverflow.com/a/2643584/52598
      -- New installations
      -- ssh-keygen
      -- cat ~/.ssh/id_rsa.pub
-     -- Add public key to this repo
+     -- Add public key to account
+     --    https://github.com/settings/keys
+     --    https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account
 
       git clone --bare git@github.com:lkeersmaekers/dotfiles $HOME/.cfg
       function config {
